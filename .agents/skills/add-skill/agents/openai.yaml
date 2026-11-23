@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add skill"
+  short_description: "Add a skill to this catalog"
+  default_prompt: "Use $add-skill to add a portable skill to the right ecosystem."

@@ -1,0 +1,16 @@
+{
+  "name": "media",
+  "version": "0.1.0",
+  "description": "Image, video, voice, and film workflows.",
+  "author": {
+    "name": "trippsmith",
+    "email": "trippsmith@authid.ai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "media",
+    "video",
+    "voice",
+    "film"
+  ]
+}

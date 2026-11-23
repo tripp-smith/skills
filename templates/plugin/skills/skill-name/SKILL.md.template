@@ -1,0 +1,20 @@
+---
+name: skill-name
+description: What this skill does and when to use it. Include the words a user would say.
+license: MIT
+---
+
+# Skill title
+
+## When to use
+
+Use this skill when...
+
+## Steps
+
+1. Do the first concrete action.
+2. Read `./references/detail.md` only if the task needs that detail.
+
+## Done when
+
+State the check that shows the task is finished.

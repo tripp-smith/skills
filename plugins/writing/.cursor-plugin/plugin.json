@@ -1,0 +1,16 @@
+{
+  "name": "writing",
+  "version": "0.1.0",
+  "description": "Long-form writing, manuscripts, and reader-facing prose.",
+  "author": {
+    "name": "trippsmith",
+    "email": "trippsmith@authid.ai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "manuscripts",
+    "editing",
+    "prose"
+  ]
+}

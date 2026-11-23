@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "media",
+  "version": "0.1.0",
+  "description": "Image, video, voice, and film workflows.",
+  "author": {
+    "name": "trippsmith",
+    "email": "trippsmith@authid.ai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "media",
+    "video",
+    "voice",
+    "film"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Media",
+        "shortDescription": "Image, video, voice, and film workflows.",
+        "developerName": "trippsmith",
+        "category": "Productivity",
+        "capabilities": [
+          "Generate and edit"
+        ]
+      }
+    }
+  }
+}

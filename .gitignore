@@ -1,0 +1,9 @@
+.DS_Store
+.context/
+__pycache__/
+*.pyc
+
+# Track only the skills symlink. Claude Code and Grok read it;
+# the rest of .claude is local client state.
+.claude/*
+!.claude/skills

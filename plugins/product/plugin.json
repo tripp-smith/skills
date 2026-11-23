@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "product",
+  "version": "0.1.0",
+  "description": "Specifications, planning, and product communication.",
+  "author": {
+    "name": "trippsmith",
+    "email": "trippsmith@authid.ai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product",
+    "specifications",
+    "planning"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Product",
+        "shortDescription": "Specifications, planning, and product communication.",
+        "developerName": "trippsmith",
+        "category": "Productivity",
+        "capabilities": [
+          "Specify and plan"
+        ]
+      }
+    }
+  }
+}

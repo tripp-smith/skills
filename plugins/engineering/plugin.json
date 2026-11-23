@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "engineering",
+  "version": "0.1.0",
+  "description": "Implementation, delivery, and verification workflows.",
+  "author": {
+    "name": "trippsmith",
+    "email": "trippsmith@authid.ai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "implementation",
+    "delivery",
+    "verification"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Engineering",
+        "shortDescription": "Implementation, delivery, and verification workflows.",
+        "developerName": "trippsmith",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Implement and verify"
+        ]
+      }
+    }
+  }
+}

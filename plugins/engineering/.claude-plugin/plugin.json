@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "engineering",
+  "version": "0.1.0",
+  "description": "Implementation, delivery, and verification workflows.",
+  "author": {
+    "name": "trippsmith",
+    "email": "trippsmith@authid.ai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "implementation",
+    "delivery",
+    "verification"
+  ]
+}

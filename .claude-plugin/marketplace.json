@@ -1,0 +1,34 @@
+{
+  "name": "tripp-smith-skills",
+  "description": "Specialized skill ecosystems for Cursor, Claude, Codex, and other Agent Skills clients.",
+  "owner": {
+    "name": "trippsmith",
+    "email": "trippsmith@authid.ai"
+  },
+  "metadata": {
+    "description": "Specialized skill ecosystems for Cursor, Claude, Codex, and other Agent Skills clients.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "writing",
+      "source": "./plugins/writing",
+      "description": "Long-form writing, manuscripts, and reader-facing prose."
+    },
+    {
+      "name": "product",
+      "source": "./plugins/product",
+      "description": "Specifications, planning, and product communication."
+    },
+    {
+      "name": "engineering",
+      "source": "./plugins/engineering",
+      "description": "Implementation, delivery, and verification workflows."
+    },
+    {
+      "name": "media",
+      "source": "./plugins/media",
+      "description": "Image, video, voice, and film workflows."
+    }
+  ]
+}

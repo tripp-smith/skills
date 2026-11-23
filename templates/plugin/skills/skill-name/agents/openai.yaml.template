@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill title"
+  short_description: "Twenty five to sixty four characters."
+  default_prompt: "Use $skill-name to do the specific task."

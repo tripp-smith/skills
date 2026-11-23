@@ -1,0 +1,15 @@
+{
+  "name": "product",
+  "version": "0.1.0",
+  "description": "Specifications, planning, and product communication.",
+  "author": {
+    "name": "trippsmith",
+    "email": "trippsmith@authid.ai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product",
+    "specifications",
+    "planning"
+  ]
+}
