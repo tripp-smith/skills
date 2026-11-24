@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reader-first Communication"
+  short_description: "Write self-contained titles and headings for readers"
+  default_prompt: "Use $reader-first-communication to revise this material for a first-time reader, preserving factual accuracy and the intended audience."

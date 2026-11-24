@@ -3,6 +3,11 @@
   "notGrouped": "bottom",
   "groupings": [
     {
+      "title": "Writing",
+      "description": "Skills for long-form writing and reader-facing prose.",
+      "skills": ["reader-first-communication"]
+    },
+    {
       "title": "Catalog",
       "description": "Skills for maintaining this repository.",
       "skills": ["add-skill"]

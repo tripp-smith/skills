@@ -4,34 +4,34 @@ Specialized skill ecosystems you can install in Cursor, Claude Code, Codex, Grok
 
 A skill is a folder with a `SKILL.md` file, in the open [Agent Skills](https://agentskills.io/specification) format. Related skills ship together as one plugin. The plugin is the ecosystem: writing, product, engineering, or media. Each client reads its own marketplace file and then loads the same `skills/` tree.
 
+Repository: [github.com/tripp-smith/skills](https://github.com/tripp-smith/skills)
+
 ## Ecosystems
 
-| Plugin | Install it for |
-| --- | --- |
-| `writing` | Long-form writing, manuscripts, and reader-facing prose |
-| `product` | Specifications, planning, and product communication |
-| `engineering` | Implementation, delivery, and verification workflows |
-| `media` | Image, video, voice, and film workflows |
+| Plugin | Install it for | Skills |
+| --- | --- | --- |
+| `writing` | Long-form writing, manuscripts, and reader-facing prose | `reader-first-communication` |
+| `product` | Specifications, planning, and product communication | — |
+| `engineering` | Implementation, delivery, and verification workflows | — |
+| `media` | Image, video, voice, and film workflows | — |
 
-These four are the starting capture boundaries. They do not yet contain domain skills. Add a skill inside one of them, or add another plugin, without copying the skill for each client.
+Add a skill inside an existing ecosystem, or add another plugin, without copying the skill for each client.
 
 ## Install
 
 Marketplace name: `tripp-smith-skills`.
 
-Use this checkout's absolute path until the repository has a Git remote. After it is published, clients that accept `owner/repo` can use that in place of the path.
-
 Claude Code, from inside a session:
 
 ```text
-/plugin marketplace add /absolute/path/to/skills
+/plugin marketplace add tripp-smith/skills
 /plugin install writing@tripp-smith-skills
 ```
 
 Codex:
 
 ```text
-codex plugin marketplace add /absolute/path/to/skills
+codex plugin marketplace add tripp-smith/skills
 ```
 
 Then install `writing`, `product`, `engineering`, or `media` from that marketplace.
