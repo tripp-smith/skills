@@ -10,7 +10,7 @@ Repository: [github.com/tripp-smith/skills](https://github.com/tripp-smith/skill
 
 | Plugin | Install it for | Skills |
 | --- | --- | --- |
-| `writing` | Long-form writing, manuscripts, and reader-facing prose | `reader-first-communication` |
+| `writing` | Long-form writing, manuscripts, and reader-facing prose | `reader-first-communication` (cold-read titles, headings, and prose) |
 | `product` | Specifications, planning, and product communication | — |
 | `engineering` | Implementation, delivery, and verification workflows | — |
 | `media` | Image, video, voice, and film workflows | — |

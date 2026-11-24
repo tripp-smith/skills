@@ -1,6 +1,6 @@
 # Reader-first Communication Agent Skill
 
-A portable, instruction-only Agent Skill for chart and slide titles, report structures, document headings, headlines, correspondence, and explanatory writing. It targets writer-centric context leakage: wording that makes sense to the author but not to a first-time external reader. It also prefers the conventional, literal expression for the intended domain when a figurative word would not add understanding.
+A portable, instruction-only Agent Skill for chart and slide titles, report structures, document headings, headlines, correspondence, and explanatory writing. It targets writer-centric context leakage: wording that makes sense to the author but not to a first-time external reader. It prefers conventional domain wording, keeps standard technical terms when they are the precise vocabulary, and checks presuppositions, outline continuity, and tight-length hierarchy under cold-read review.
 
 ## Installation
 
@@ -17,8 +17,8 @@ The skill follows the Agent Skills format: https://agentskills.io/specification
 
 ## Files
 
-- `SKILL.md`: core operating instructions, conventional-wording rule, and cold-read quality gate.
-- `references/title-patterns.md`: before/after examples and exceptions.
+- `SKILL.md`: core operating instructions, conventional-wording rule, audience presupposition check, outline continuity, and cold-read quality gate.
+- `references/title-patterns.md`: before/after examples, including conventional technical terms vs idiosyncratic labels.
 - `references/evaluation.md`: detailed audit and red-team procedure.
 - `tests/acceptance-cases.md`: 12 scenario-based smoke tests.
 - `agents/openai.yaml`: optional presentation metadata for supporting agents.

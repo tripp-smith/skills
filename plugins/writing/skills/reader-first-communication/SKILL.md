@@ -11,7 +11,7 @@ Write for the reader's **first encounter**, not the author's **last step**. The 
 
 Prevent **writer-centric context leakage**: when a writer uses vocabulary, shortcuts, metaphors, process notes, or assumptions that make sense only after seeing the underlying work. In visual artifacts this often appears as **retrospective labeling**: naming a panel after a method, chart shape, or local analytical decision rather than communicating its finding. The resulting **information hierarchy inversion** puts abstraction in the headline and the actual finding in small text.
 
-A figurative word can be grammatical and still fail when it is not the conventional expression for the domain and does not add understanding a literal wording would miss.
+A figurative word can be grammatical and still fail when it is not the conventional expression for the domain and does not add understanding a literal wording would miss. Reject terms that are local to this analysis or that require prior conversation. Keep standard domain vocabulary an intended expert reader would expect, such as `confidence band`, `time window`, or `price floor` in pricing contexts where that is the precise term.
 
 This is a production and review skill, not merely a style preference. Apply it during planning, drafting, and final editing. Do not announce these checks in the finished artifact unless asked.
 
@@ -32,6 +32,8 @@ Do not turn creative fiction, literary titles, brand slogans, deliberate suspens
 
 The author travels from evidence to understanding to title. The reader travels from title to expectation to evidence to understanding. Write for the second sequence. Every level of the artifact must stand on information available at that point in the reading journey.
 
+If the user has explicitly requested internal shorthand, creative framing, or suspense, follow that instruction. Do not force assertion-first wording onto internal notes or deliberately evocative work when the request asks for something else.
+
 ## Workflow
 
 ### 1. Establish the audience contract
@@ -43,6 +45,8 @@ Before drafting, infer or record:
 - **Purpose:** Inform, explain, compare, recommend, persuade with evidence, instruct, or narrate. Select the right kind of opening for that purpose.
 
 If the intended audience is expert, retain technical precision but still introduce the subject and central result. Expertise does not imply familiarity with this particular dataset, conversation, decision, or methodology.
+
+Separate (a) domain vocabulary the stated reader can be assumed to know from (b) instance-specific facts, methods, windows, samples, or intermediate analytical decisions that must be re-introduced. Before locking a title, list the presuppositions it activates and verify each is licensed for that reader.
 
 ### 2. Extract the message before drafting its label
 
@@ -71,6 +75,8 @@ Allocate information by the order in which a reader encounters it:
 3. **Exhibit / body:** Data, reasoning, examples, derivation, supporting detail, and mechanism.
 4. **Notes / footnotes / appendix:** Provenance, full methods, definitions, secondary caveats, and reproducibility details. Do not bury decisive qualifications here.
 
+Under a tight character limit, prefer a precise topic label with an immediately visible assertion subtitle over an underspecified assertion title that drops material context. Do not compress away the subject, comparison, or qualification the claim depends on.
+
 Intentional repetition is allowed and often useful. The same central value can appear in the headline, a chart annotation, and the discussion. These placements serve different reading modes. Do not replace the factual headline with a metaphor merely to avoid repeating a number or noun.
 
 ### 4. Draft for cold comprehension
@@ -91,7 +97,7 @@ Examples (illustrative, not verified findings):
 
 Do **not** make these forms rigid templates. A title about a policy, definition, choice, or unresolved question may have no numeric magnitude or change direction. A document title can identify the subject and intended decision, with the executive summary carrying the full answer. A title may be a question when the content genuinely investigates that question without assuming the result.
 
-Choose plain, concrete language. Keep the actual subject in the highest-prominence text. A method, window, sample, visual shape, analyst's action, or clever analogy must not become the main noun unless that *is* the subject of the finding. Prefer the conventional, literal expression for the intended domain. Use metaphor only when it conveys information or understanding that the literal expression cannot convey as effectively.
+Choose plain, concrete language. Keep the actual subject in the highest-prominence text. A method, window, sample, visual shape, analyst's action, or clever analogy must not become the main noun unless that *is* the subject of the finding. Prefer the conventional, literal expression for the intended domain. Use metaphor only when it conveys information or understanding that the literal expression cannot convey as effectively. Distinguish idiosyncratic author labels from conventional technical terms: reject `the dense window` as a private nickname for a sample period; keep `confidence band` when that is the domain's precise term.
 
 ### 5. Apply the rule at each scale
 
@@ -99,6 +105,7 @@ Choose plain, concrete language. Keep the actual subject in the highest-prominen
 - Title identifies the topic, scope, or decision; if the report makes a single supported headline finding, the title may state it.
 - Executive summary opens with the answer or central finding, not a description of the research process.
 - Section headings form a meaningful outline when read alone. Prefer takeaways to generic headings such as `Observations`, `Discussion`, or `Interesting patterns` when findings are available.
+- Each heading should make clear how it continues from the previous one, or explicitly signal a topic shift, so the outline reads as cumulative rather than a set of disconnected assertions.
 - First sentences supply referents before analysis. Each paragraph should answer a recognizable question or advance one claim.
 
 **Slides**
@@ -132,13 +139,13 @@ Review the finished artifact from an external reader's vantage point. Test every
 1. **Isolation:** With the body, figure, and prior conversation hidden, can the intended reader tell what the statement is about and what it communicates? A question or topic label is acceptable only where genuinely appropriate.
 2. **Specificity:** Is the central subject explicit? Is the direction, comparison, decision, or most informative quantity present when the finding relies on it?
 3. **Evidence fidelity:** Is the claim supported at the stated level of certainty? Are comparisons, units, timeframes, and meaningful uncertainty accurate? Is any caveat necessary to prevent misinterpretation visible early enough?
-4. **Context independence:** Does it avoid unexplained local vocabulary, pronouns without referents, metaphors, references to the drafting process, and labels such as `the floor`, `the window`, `the shift`, `our approach` that rely on hidden context? A figurative word that a reader can decode still fails when the conventional literal expression for the domain would communicate the fact as effectively.
-5. **Information hierarchy:** Does the top line carry the highest-value information rather than a mood, method, or decorative gloss? Could the title be pasted onto several unrelated exhibits without becoming obviously wrong? If so, improve its specificity.
+4. **Context independence:** Does it avoid unexplained local vocabulary, pronouns without referents, idiosyncratic metaphors, references to the drafting process, and labels such as `the floor`, `the window`, `the shift`, `our approach` that rely on hidden context? A figurative word that a reader can decode still fails when the conventional literal expression for the domain would communicate the fact as effectively. Standard domain terms licensed for the stated reader pass; private nicknames for this analysis fail.
+5. **Information hierarchy:** Does the top line carry the highest-value information rather than a mood, method, or decorative gloss? Could the title be pasted onto several unrelated exhibits without becoming obviously wrong? If so, improve its specificity. If space is tight, is a precise topic title plus an immediately visible assertion subtitle better than a compressed assertion that loses material context?
 
 **Fail any applicable gate -> rewrite and retest.** A catchy or balanced title does not compensate for a failed gate. Evidence fidelity is a hard constraint: never fabricate a claim to satisfy a title formula.
 
 For long documents, run two further checks:
-- **Outline-only test:** Read only the title, section headings, and paragraph openings. Do they tell a coherent, accurate story?
+- **Outline-only test:** Read only the title, section headings, and paragraph openings. Do they tell a coherent, accurate story? Does each heading continue the prior topic or clearly mark a shift, rather than jumping without signal?
 - **Detached-excerpt test:** Imagine a slide exported as a screenshot, a chart forwarded alone, or a paragraph quoted outside the document. Does enough context travel with it?
 
 ### 7. Final output behavior

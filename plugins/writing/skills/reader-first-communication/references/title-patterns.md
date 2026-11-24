@@ -59,6 +59,10 @@ Method titles are appropriate when the finding is about methods: `Holt model red
 
 Keep established domain terms where they improve precision. Do not replace `Net asset value reconciliation exceptions rose 20%` with `The books no longer balance`. Technical expertise does not supply missing context about a specific analysis.
 
+### Conventional technical terms vs idiosyncratic labels
+
+Keep domain metaphors that are the precise term for the intended reader: `confidence band`, `time window`, `price floor` in a pricing context where that is standard vocabulary. Reject private nicknames and process notes that only this analysis uses: `the dense window`, `at the floor`, `where we landed`. The test is whether an expert who has not seen the chat would treat the phrase as standard vocabulary or as an unexplained local label.
+
 ### Interpretive, argumentative, and narrative work
 
 An essay may use an intriguing question and develop the answer through the body. A literary headline can be evocative. The quality standard becomes *appropriate reader orientation for the genre*, not compulsory declarative statistics. Honor deliberate suspense when requested.
